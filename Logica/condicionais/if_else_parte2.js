@@ -1,12 +1,11 @@
-const hora = Math.random() * 24;
+const numero = 25
 
-console.log(hora)
-if(hora >= 0 && hora <= 11){
-  console.log('Bom dia')
-} else if (hora >= 12 && hora <= 17) {
-  console.log('Boa tarde')
-} else if (hora >= 18 && hora <= 23) {
-  console.log('Boa noite')
+if (numero >= 0 && numero <= 5) {
+  console.log('está entre 0 e 5')
+} else if (numero >= 6 && numero <= 8) {
+  console.log('está entre 6 e 8')
+} else if (numero >= 9 && numero <= 11) {
+  console.log('está entre 9 e 11')
 } else {
-  console.log('hora invalida')
+  console.log('o numero nao ta na lista')
 }
