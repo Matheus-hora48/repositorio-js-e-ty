@@ -72,3 +72,8 @@ form button:hover {
   display: inline-block;
   width: 50%;
 }
+
+.paragrafo-resultado{
+  padding: 10px 20px;
+  background: rgb(34, 198, 133);
+}
