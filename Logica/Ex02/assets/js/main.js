@@ -5,6 +5,7 @@ function zeroEsquerda(num){
 function mesFormatado(mes)
 
 function formataData(data){
+  const diaSemana = data.getDay()
   const dia = zeroEsquerda(data.getDate())
   const mes = zeroEsquerda(data.getMonth())
   const ano = zeroEsquerda(data.getFullYear())
