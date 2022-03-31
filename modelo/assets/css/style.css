@@ -74,6 +74,17 @@ form button:hover {
 }
 
 .paragrafo-resultado{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 900;
   padding: 10px 20px;
   background: rgb(34, 198, 133);
+}
+
+.invalido{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 10px 20px;
+  background: rgb(194, 53, 31);
 }
