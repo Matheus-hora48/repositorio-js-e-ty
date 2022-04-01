@@ -8,4 +8,7 @@ const pessoa = {
   }
 }
 
-console.log(pessoa.nome)
+// Atribuição via desestruturação
+const { nome: n = '', sobreNome } = pessoa
+
+console.log(n , sobreNome)
