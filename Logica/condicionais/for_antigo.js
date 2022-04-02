@@ -1,3 +1,5 @@
+//Geralmente com interáveis (array ou strings)
+
 //Como funciona o for
 
 for (let i = 0; i <= 10; i++) {
