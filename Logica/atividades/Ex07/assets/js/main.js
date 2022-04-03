@@ -13,9 +13,6 @@ function fizzBuzz(num) {
   }
 }
 
-
-
-
-let numero = fizzBuzz(1)
-
-console.log(numero)
+for (let i = 0; i <= 100; i++ ){
+  console.log(i, fizzBuzz(i))
+}
