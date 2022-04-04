@@ -83,3 +83,13 @@ button:hover{
 .pausado{
   color: red;
 }
+
+input {
+  height: 50px;
+  border-radius: 18px;
+  padding: 10px;
+}
+
+li {
+  margin: 10px;
+}
