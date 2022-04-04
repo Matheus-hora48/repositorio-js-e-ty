@@ -79,3 +79,7 @@ button{
 button:hover{
   background: rgb(25, 121, 143);
 }
+
+.pausado{
+  color: red;
+}
