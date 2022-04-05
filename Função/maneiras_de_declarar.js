@@ -10,4 +10,24 @@ const dado = function (){
   console.log('sou um dado')
 }
 
-dado()
+function executaFuncao(funcao){
+  console.log('Executando funcao a baixo')
+  funcao()
+}
+
+
+executaFuncao(dado)
+
+//arrow function
+const funcaoArr = () => {
+  console.log('Arrow function')
+}
+
+funcaoArr()
+
+//dentro de um objeto
+const obj = {
+  falar () {
+    console.log('falando')
+  }
+}
