@@ -3,7 +3,13 @@ function Calculadora(){
   this.btnClear = document.querySelector('.btn-clear')
 
   this.capturaCliques = () => {
-    this.capturaCliques
+    document.addEventListener('click', e =>{
+      const el = 
+    })
+  }
+
+  this.inicia = () =>{
+    this.capturaCliques()
   }
 }
 
