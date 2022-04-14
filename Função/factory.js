@@ -1,5 +1,6 @@
 //factory serve para facilitar 
 //o this faz referencia ao objeto que ta trabalhando
+//retorna objeto
 
 function criaPessoa(nome, sobrenome, a, p) {
   return {
