@@ -19,7 +19,7 @@ const pessoas = [
   { nome: 'Letícia',idade: 19 },
   { nome: 'Rosana', idade: 32 },
   { nome:'Wallace', idade: 47 },
-  ];
+];
 
 //nomes com mais de 5 letras
 const pessoasNome = pessoas.filter(function(obj){
