@@ -22,8 +22,11 @@ const p2 = {
 Object.setPrototypeOf(p2, Produto.prototype)
 p2.aumento(20)
 
+const p3 = Object.create(Produto.prototype)
+
 console.log(p1)
 console.log(p2)
+console.log(p3)
 
 /*
 const objA = {
