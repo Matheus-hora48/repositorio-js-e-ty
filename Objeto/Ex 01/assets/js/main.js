@@ -39,4 +39,3 @@ console.log(cpfArray)
 console.log(cpfParcial2)
 
 const teste = cpfArray = cpfParcial2 ? true: false 
-console.log(teste)
