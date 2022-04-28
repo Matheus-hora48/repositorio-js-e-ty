@@ -17,7 +17,7 @@
     "url": "https://github.com/Matheus-hora48/repositorio-js-e-ty/issues"
   },
   "homepage": "https://github.com/Matheus-hora48/repositorio-js-e-ty#readme",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.17.6",
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11"
